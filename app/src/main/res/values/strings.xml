@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="welcome_to">WELCOME TO</string>
+    <string name="fatbook">FatBook</string>
+    <string name="log_in">LOG IN</string>
+    <string name="FatBook_tagline">get your forks ready</string>
+    <string name="copyrigh">PotatoCorpⒸ2022</string>
+    <string name="login">LOGIN</string>
+    <string name="cat_dialog">Hello, Im Kuzya! How can I call you??</string>
 </resources>
