@@ -6,5 +6,5 @@
     <string name="FatBook_tagline">get your forks ready</string>
     <string name="copyrigh">PotatoCorpⒸ2022</string>
     <string name="login">LOGIN</string>
-    <string name="cat_dialog">Hello, Im Kuzya! How can I call you??</string>
+    <string name="cat_dialog">Hello, Im Kuzya! \n How can I call you??</string>
 </resources>
