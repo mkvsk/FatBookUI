@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/primary_light">
 
     <TextView
-        android:id="@+id/first_enter_login"
+        android:id="@+id/textView_new_cook_in_fb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_light"
         android:paddingTop="88dp"
-        android:text="@string/login"
+        android:text="@string/new_cook_in"
         android:textColor="@color/primary_text"
         android:textSize="24sp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -30,7 +29,7 @@
         android:fontFamily="@font/roboto"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/first_enter_login" />
+        app:layout_constraintTop_toBottomOf="@id/textView_new_cook_in_fb" />
 
     <TextView
         android:id="@+id/textView_cat_dialog"
@@ -38,7 +37,7 @@
         android:layout_height="wrap_content"
         android:elevation="10dp"
         android:paddingTop="70dp"
-        android:text="@string/cat_dialog"
+        android:text="@string/first_meet"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="14sp"
@@ -66,64 +65,23 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageView_cat_dialog" />
 
-    <ImageView
-        android:id="@+id/username_accepted"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/icon_accepted"
-        app:layout_constraintRight_toRightOf="@id/editText_Username"
-        app:layout_constraintTop_toTopOf="@id/editText_Username"
-        app:layout_constraintBottom_toBottomOf="@id/editText_Username"
-        android:layout_margin="10dp"
-        android:elevation="8dp"
-        android:translationZ="6dp"
-        android:visibility="visible" />
-
-    <EditText
-        android:id="@+id/editText_Username"
+    <Button
+        android:id="@+id/button_yeah_go"
         android:layout_width="234dp"
-        android:layout_height="45dp"
-        android:background="@drawable/round_corner_edittext"
-        android:fontFamily="@font/roboto"
-        android:hint="@string/fill_username"
-        android:autofillHints="@null"
-        android:inputType="text"
-        android:maxLength="16"
-        android:textAlignment="center"
-        android:textColor="@color/primary_text"
-        android:textSize="16sp"
-        android:elevation="6dp"
-        android:stateListAnimator="@null"
-        android:translationZ="4dp"
+        android:layout_height="50dp"
         android:layout_marginTop="10dp"
+        android:backgroundTint="@color/primary_pink"
+        android:elevation="6dp"
+        android:fontFamily="@font/roboto_light"
+        android:stateListAnimator="@null"
+        android:text="@string/yeah_go"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:translationZ="4dp"
+        android:textAlignment="center"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ImageView_kuzya_talk" />
-
-    <TextView
-        android:id="@+id/username_description"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/username_description"
-        android:fontFamily="@font/roboto_light"
-        android:textSize="9sp"
-        android:textColor="@color/secondary_text"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editText_Username"
-        android:paddingTop="10dp" />
-
-    <ImageView
-        android:id="@+id/icon_arrow_next"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/arrow_next"
-        app:layout_constraintRight_toRightOf="@id/button_Next"
-        app:layout_constraintTop_toTopOf="@+id/button_Next"
-        app:layout_constraintBottom_toBottomOf="@id/button_Next"
-        android:layout_margin="10dp"
-        android:elevation="8dp"
-        android:translationZ="6dp" />
 
     <Button
         android:id="@+id/button_Next"
@@ -134,14 +92,14 @@
         android:elevation="6dp"
         android:fontFamily="@font/roboto_light"
         android:stateListAnimator="@null"
-        android:text="@string/next_step_btn"
+        android:text="@string/no_later"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:translationZ="4dp"
         android:textAlignment="center"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/username_description" />
+        app:layout_constraintTop_toBottomOf="@id/button_yeah_go" />
 
     <TextView
         android:id="@+id/textView_copyrigh"

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/primary_light">
+
+    <TextView
+        android:id="@+id/textView_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:fontFamily="@font/roboto"
+        android:textSize="20sp"
+        android:textColor="@color/primary_pink"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingTop="60dp" />
+
+    <ImageView
+        android:id="@+id/user_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/default_profile_photo"
+        android:elevation="4dp"
+        android:background="@drawable/round"
+        android:translationZ="2dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView_username"
+        android:layout_margin="20dp"/>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/icon_name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="240dp"
+        android:layout_marginRight="275dp"
+        />
+
+    <EditText
+        android:id="@+id/user_firstname"
+        android:layout_width="258dp"
+        android:layout_height="55dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_photo"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="13dp"
+        android:textColor="@color/primary_text"
+        android:hint="@string/firstname"
+        android:fontFamily="@font/roboto"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

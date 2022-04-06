@@ -7,4 +7,16 @@
     <string name="copyrigh">PotatoCorpⒸ2022</string>
     <string name="login">LOGIN</string>
     <string name="cat_dialog">Hello, Im Kuzya! \n How can I call you??</string>
+    <string name="fill_username">Username</string>
+    <string name="username_description">*Allows only letters and numbers, max length 16 chars</string>
+
+    <string name="msg_wrong_username">Allows only letters and numbers,\n max length 16 chars</string>
+
+    <string name="next_step_btn">NEXT</string>
+    <string name="new_cook_in">NEW COOK IN</string>
+    <string name="first_meet">Nice to meet you, USERNAME!\n Do you want to tell about \n yourself?</string>
+    <string name="yeah_go">YEAH, GO!</string>
+    <string name="no_later">LATER</string>
+    <string name="username">Username</string>
+    <string name="firstname">First Name</string>
 </resources>

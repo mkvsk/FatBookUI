@@ -3,9 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidApps/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3775" />
+        <entry key="..\:/AndroidApps/app/src/main/res/drawable/arrov_next.xml" value="0.33" />
+        <entry key="..\:/AndroidApps/app/src/main/res/drawable/arrow_next.xml" value="0.3775" />
         <entry key="..\:/AndroidApps/app/src/main/res/drawable/button_login_googleplay.xml" value="0.113" />
+        <entry key="..\:/AndroidApps/app/src/main/res/drawable/dialog.xml" value="0.232" />
+        <entry key="..\:/AndroidApps/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3775" />
+        <entry key="..\:/AndroidApps/app/src/main/res/drawable/icon_accepted.xml" value="0.3775" />
+        <entry key="..\:/AndroidApps/app/src/main/res/drawable/kuzya_chef.xml" value="0.232" />
+        <entry key="..\:/AndroidApps/app/src/main/res/drawable/kuzya_real_talk.xml" value="0.232" />
+        <entry key="..\:/AndroidApps/app/src/main/res/drawable/pink_fork.xml" value="0.232" />
+        <entry key="..\:/AndroidApps/app/src/main/res/drawable/round.xml" value="0.3775" />
+        <entry key="..\:/AndroidApps/app/src/main/res/drawable/round_corner_edittext.xml" value="0.468" />
         <entry key="..\:/AndroidApps/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/AndroidApps/app/src/main/res/layout/edit_profile.xml" value="0.39351851851851855" />
         <entry key="..\:/AndroidApps/app/src/main/res/layout/first_enter.xml" value="0.33" />
+        <entry key="..\:/AndroidApps/app/src/main/res/layout/new_cook_in_fb.xml" value="0.33" />
       </map>
     </option>
   </component>
