@@ -19,4 +19,8 @@
     <string name="no_later">LATER</string>
     <string name="username">Username</string>
     <string name="firstname">First Name</string>
+    <string name="secondname">Second Name</string>
+    <string name="bday">Birthday</string>
+    <string name="sex">Sex</string>
+    <string name="save">SAVE</string>
 </resources>
